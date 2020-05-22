@@ -1,4 +1,4 @@
-package com.kafka.cloud.demo3;
+package com.kafka.cloud.stream.demo1;
 
 import java.util.Properties;
 

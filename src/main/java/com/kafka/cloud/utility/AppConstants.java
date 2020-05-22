@@ -2,6 +2,7 @@ package com.kafka.cloud.utility;
 
 public class AppConstants {
 
+	public static final String STREAM_APPLICATION_ID = "stream-application-id";
 	public static final String SERVER_URL = "localhost:9092";
 	public static final String TOPIC = "sample-topic";
 	public static final String TOPIC_WITH_PARTITION = "topic-partition";

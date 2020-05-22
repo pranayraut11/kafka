@@ -11,13 +11,10 @@ import org.apache.kafka.clients.consumer.ConsumerRecords;
 import org.apache.kafka.clients.consumer.KafkaConsumer;
 import org.apache.kafka.common.TopicPartition;
 import org.apache.kafka.common.serialization.IntegerDeserializer;
-import org.apache.kafka.streams.StreamsBuilder;
-import org.apache.kafka.streams.kstream.KStream;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.kafka.cloud.utility.AppConstants;
-import com.kafka.cloud.utility.AppSerdis;
 import com.kafka.cloud.utility.JsonDeserializer;
 import com.kafka.cloud.vo.User;
 
